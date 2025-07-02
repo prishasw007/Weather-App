@@ -15,7 +15,7 @@ async function fetchWeather() {
   }
 
   async function getLonAndLat() {
-    const countryCode;
+    const countryCode = 1;
     const geocodeURL = `https://api.openweathermap.org/geo/1.0/direct?q=${searchInput.replace(" ", "%20")},${countryCode}&limit=1&appid=${apiKey}`;
     const response = await fetch(geocodeURL);
     if (!response.ok) {
