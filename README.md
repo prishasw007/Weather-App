@@ -42,7 +42,4 @@ A simple, responsive weather app built using **HTML**, **CSS**, and **JavaScript
 3. Then it calls the **Current Weather API** with those coordinates
 4. Weather data is parsed and displayed dynamically using JavaScript
 
----
-
-## 📁 Folder Structure
 
